@@ -1,0 +1,23 @@
+# PredictIQ — Agentic Prediction Market Intelligence Platform
+# Install: pip install -r requirements.txt
+
+# ── Core agentic framework ─────────────────────────────────────
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-groq>=0.2.0
+langchain-core>=0.3.0
+
+# ── UI ─────────────────────────────────────────────────────────
+shiny>=1.0.0
+
+# ── Visualization ──────────────────────────────────────────────
+plotly>=5.20.0
+
+# ── Data & ML ──────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+requests>=2.31.0
+
+# ── Utilities ──────────────────────────────────────────────────
+python-dotenv>=1.0.0     # optional: load .env file
